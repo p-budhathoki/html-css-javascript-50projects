@@ -27,10 +27,10 @@ function createNoteEl(id, content) {
     if (warning) {
       deleteNote(id, element);
     }
-    // add event listener to update the note. the event listener listens to everything that happens inside the input element and calls the function to update the note
-    element.addEventListener("input", () => {
-      updateNote(id, element.value);
-    });
+  });
+  // add event listener to update the note. the event listener listens to everything that happens inside the input element and calls the function to update the note
+  element.addEventListener("input", () => {
+    updateNote(id, element.value);
   });
 
   return element;
