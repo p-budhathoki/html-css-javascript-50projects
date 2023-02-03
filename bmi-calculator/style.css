@@ -44,6 +44,7 @@ p {
     border-color: rgba(255, 255, 255, 0.5);
     margin: 10px;
     /* margin-left: 0; */
+    font-weight: 900;
 }
 
 .btn {
@@ -55,6 +56,7 @@ p {
     font-size: 20px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    font-weight: 900;
     /* margin-left: 0; */
 }
 
