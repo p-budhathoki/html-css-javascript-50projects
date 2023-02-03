@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../normalize.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Loan Calculator</h1>
+        <p>Loan Amount : $
+            <input onchange="calculateLoan()" min="1" max="500000" value="10000" type="number" name="" id="loan-amount"
+                class="input">
+        </p>
+        <p>Interest Rte : $
+            <input onchange="calculateLoan()" min="0" max="100" value="10" step=".1" type="number" name=""
+                id="interest-rate" class="input">
+        </p>
+        <p>Months to Pay :
+            <input onchange="calculateLoan()" min="6" max="84" value="12" type="number" name="" id="months-to-pay"
+                class="input">
+        </p>
+        <p class="payment" id="payment">Monthly Payment : </p>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
