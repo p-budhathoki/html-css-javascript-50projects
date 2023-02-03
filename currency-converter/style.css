@@ -19,12 +19,22 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.container h1{
+    font-size: 36px;
+}
+
 .container {
     background-color: darkcyan;
     color: aliceblue;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+}
+
+.currency-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .currency-container select{
