@@ -7,3 +7,38 @@ body {
     color: whitesmoke;
     color: black;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to top left, cyan,rgb(139, 132, 199));
+    
+}
+
+.container { 
+    /* background: darkcyan; */
+    background: rgba(255,255,255,0.3);
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    color: rgb(44, 37, 37);
+
+}
+
+.input {
+    width: 100%;
+    /* font-size: 20px; */
+    height: 30px;
+}
+
+.payment {
+    font-weight: 600;
+    font-size: 20px;
+}
