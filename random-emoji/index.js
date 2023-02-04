@@ -30,7 +30,7 @@ console.log(emoji);
 
 // add event listener for the button
 btnEl.addEventListener("click", () => {
-  console.log("clicked");
+  //   console.log("clicked");
   // create a random number between 0 and 1500
   const randomNum = Math.floor(Math.random() * emoji.length);
   console.log(randomNum);
