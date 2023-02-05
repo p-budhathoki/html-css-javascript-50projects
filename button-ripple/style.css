@@ -1,0 +1,59 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    color: black;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.btn {
+    background-color: pink;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: black;
+    position: relative;
+    /* when hover takes place the overflow contains the animation inside the button */
+    overflow: hidden;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    /* width: 20px;
+    height: 20px; */
+    width: 0px;
+    height: 0px;
+    /* bring the edge to the center  */
+    left: 50%;
+    top: 50%;
+    /* bring the content to the center */
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width .5s, height .5s;
+
+}
+
+.btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
