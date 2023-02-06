@@ -21,6 +21,7 @@ body {
     background-size: cover;
     color: black;
     font-weight: 800;
+    overflow: hidden;
 }
 
 h2 {
