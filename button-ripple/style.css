@@ -39,8 +39,11 @@ body {
     width: 0px;
     height: 0px;
     /* bring the edge to the center  */
-    left: 50%;
-    top: 50%;
+    /* left: 50%;
+    top: 50%; */
+    /* for javascript to select ::before element we use var() */
+    left: var(--xPos);
+    top: var(--yPos);
     /* bring the content to the center */
     transform: translate(-50%, -50%);
     border-radius: 50%;
