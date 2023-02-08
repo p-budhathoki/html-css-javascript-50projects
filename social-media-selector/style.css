@@ -51,25 +51,30 @@ body {
     border-radius: 5px;
 }
 
-.fa-facebook, .fa-youtube, .fa-twitter, .fa-linkedin {
+/* .fa-facebook, .fa-youtube, .fa-twitter, .fa-linkedin {
     height: 40px;
     width: 40px;
     border: 1px solid black;
     display: block;
 
-}
+} */
 
 .social-lists li {
     display: flex;
+    /* border: 2px solid blue; */
     flex-direction: row;
     align-items: center;
     cursor: pointer;
     transition: padding 0.2s linear;
 }
 
+.social-lists li p {
+    order: 2;
+}
 
-
-
+.social-lists li i {
+    order: 1;
+}
 
 .social-lists li:hover {
     background: darkgray;
