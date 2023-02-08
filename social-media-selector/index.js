@@ -7,8 +7,13 @@ const menuTextEl = document.querySelector(".menu p");
 const liEls = document.querySelectorAll(".social-lists li");
 console.log(liEls);
 //select p inside social-list
-const socialP = document.querySelector(".social-lists li p");
-const socialI = document.querySelector(".social-lists li i");
+// const socialP = document.querySelector(".social-lists li p");
+// const socialI = document.querySelector(".social-lists li i");
+// select fa-brands class
+// const socialI = document.querySelector(".fa-brands");
+// liEls.forEach((element) => {
+//   socialI.style.order = 1;
+// });
 
 // add the event listener to the menuEl
 menuEl.addEventListener("click", () => {
@@ -20,11 +25,6 @@ menuEl.addEventListener("click", () => {
 
 // document.querySelector(".social-lists li p").style.order = 2;
 // document.querySelector(".social-lists li i").style.order = 1;
-
-liEls.forEach((element) => {
-  socialP.style.order = 2;
-  socialI.style.order = 1;
-});
 
 // loop through all the li elements using forEach method
 liEls.forEach((liEl) => {
