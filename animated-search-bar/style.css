@@ -29,6 +29,7 @@ body {
     /* outline: none; */
     margin: 10px;
     position: relative;
+    transition: width 1.5s;
 }
 
 .magnifier {
@@ -43,6 +44,8 @@ body {
     width: 30px;
     position: absolute;
     right: 10px;
+    transition: width .4s;
+    transition-delay: 1s;
 }
 
 .input {
@@ -50,7 +53,10 @@ body {
     border: none;
     margin: 10px 50px;
     /* outline: none; */
+    width: 100%;
     color: rgb(100, 100, 100);
+    transition: width 1s;
+    transition-delay: .5s;
 
 }
 
