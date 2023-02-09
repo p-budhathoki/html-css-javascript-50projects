@@ -1,0 +1,83 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+
+}
+
+body {
+    margin: 0;
+}
+
+.top-container {
+    background-image: url(../images/jongsun-lee-F-pSZO_jeE8-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.top-container h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    top: 130px;
+}
+
+.text {
+    margin: 50px 5%;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    /* border: 2px solid red; */
+    /* margin: 10px 90px 0 30px; */
+    z-index: 1;
+    transition: background-color .4s;
+
+}
+
+.navbar a img {
+    /* height: 90px; */
+    /* overflow: hidden; */
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #000;
+    font-family: cursive;
+}
+
+.navbar ul li a:hover {
+    color: green;
+}
+
+.navbar.active {
+    background-color: black;
+}
+
+.navbar.active ul li a {
+    color: white;
+}
