@@ -17,12 +17,14 @@ body {
     justify-content: center;
     font-family: cursive;
     background-color: slateblue;
+    overflow: hidden;
 }
 
 h2 {
     color: white;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 .year {
