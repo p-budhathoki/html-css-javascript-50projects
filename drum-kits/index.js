@@ -22,4 +22,24 @@ kits.forEach((kit) => {
   // add the audio file to the audio element
   audioEl.src = "drum-kits-sounds/" + kit + ".mp3";
   containerEl.appendChild(audioEl);
+
+  // add event listeners to the buttons so that we can hear the audio
+  btnEl.addEventListener("click", () => {
+    // play the audio
+    audioEl.play();
+  });
+  // add event listeners to the buttons so that we can hear the audio when pressing the keyboard button
+  window.addEventListener("keydown", (event) => {
+    // console.log(event.key);
+    if (event.key === kit.charAt(0)) {
+      audioEl.play();
+      // show animation in button when pressing the keyboard button
+
+      btnEl.style.transform = "scale(.9)";
+      // get the buttons back to the original position
+      setTimeout(() => {
+        btnEl.style.transform = "scale(1)";
+      }, 100);
+    }
+  });
 });
