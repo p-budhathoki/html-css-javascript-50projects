@@ -1,0 +1,119 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(../images/benjamin-voros-U-Kty6HxcQc-unsplash.jpg);
+    text-align: center;
+    background-size: cover;
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    filter: brightness(.8);
+}
+
+.active.container {
+    filter: blur(5px)brightness(.7)
+}
+
+.popup-container {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(93, 109, 169);
+    width: 400px;
+    height: 200px;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-image: url(../images/ganapathy-kumar-weJI3cPGzhI-unsplash.jpg);
+    background-size: cover;
+    opacity: 1;
+    transition: all 0.7;
+}
+
+h4 {
+    margin: 10px 0;
+    font-family: sans-serif;
+    /* color: blueviolet; */
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+h4 span {
+    text-transform: uppercase;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+.popup-btn {
+    background-color: orangered;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.input {
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.input::placeholder {
+    color: lightgray;
+}
+
+.close-icon {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    color: orangered;
+}
+
+.active.popup-container {
+    visibility: hidden;
+    opacity: 0;
+    top: 10%;
+}
