@@ -1,0 +1,82 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0;
+}
+
+span {
+    color: #13005A;
+    color: #00337C;
+    color: #1C82AD;
+    color: #03C988;
+    /* rgb format */
+    color: rgb(19, 0, 90);
+    color: rgb(0, 51, 124);
+    color: rgb(28, 130, 173);
+    color: rgb(3, 201, 136);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: #13005a;
+    color: #03C988;
+    font-family: cursive;
+}
+
+.form {
+    background-color: #00337c;
+    /* background-color: #1c82ad; */
+    /* background-color: #03c988; */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid #03C988;
+    color: black;
+}
+
+.input::placeholder {
+    color: lightgray;
+    font-family: cursive;
+}
+
+.btn {
+    background-color: #03c988;
+    color: whitesmoke;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(.9);
+}
+
+.score {
+    text-align: right;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,8 @@
+{
+  "files.autoSave": "afterDelay",
+  "css.format.spaceAroundSelectorSeparator": true,
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "javascript.format.semicolons": "insert",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true
+}
