@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 22px;
+
+}
+
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #5800ff;
+}
+
+.heading {
+    font-size: 4rem;
+    color: #00d7ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.value {
+    font-size: 6rem;
+}
